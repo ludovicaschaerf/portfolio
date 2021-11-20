@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Ludovica Schaerf</title>
+    <!-- Importing required libraries-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--link rel="stylesheet" href="./css/bootstrap.min.css"-->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+</head>
+
+<body>
+    <div class='row justify-content-md-center'>
+        <div class='col-9'>
+            <!-- Setting the navigation bar at the top of the screen -->
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
+                <h2 style='font-size: 25px;'>
+                    Ludovica Schaerf
+                </h2>
+
+                <div class="justify-content-md-right">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href='index.html'>
+                                Projects
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class='row justify-content-md-center'>
+
+        <div class="col-md-4">
+            <br>
+            <h5 style='text-align:left;'>Multi-label Classification of Artworks into their Represented Icon(s)</h5>
+
+            <p style='text-align:left;'> Year: 2020 <br>
+                Class: Bachelor Thesis <br>
+                University: Amsterdam University College <br>
+            </p>
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+                <br>
+            </div>
+            <img src="2020-05-10 (24).png" height=70% width=70%>
+            <p style='font-size:12px'> Rembrandt. Attention map. From <a href="https://commons.wikimedia.org/wiki/File:Arthur_Rackham_1909_Undine_(14_of_15).jpg">here</a></p>
+            <br>
+
+
+        </div>
+        <div class="col-md-5 ps-5">
+            <div width=100% height=70%>
+                <p style='text-align:left;'><br>
+                    As the field of Computer Vision develops, new applications of its techniques need
+                    to be investigated. One of these is the automatic recognition of icons represented in
+                    artworks. To the best of our knowledge, this task has not yet been comprehensively
+                    tackled using Deep Learning classification methods on a dataset of classic, modern,
+                    and contemporary artworks. To fill this gap, this paper uses different multi-label and
+                    transfer learning techniques to classify the artworks in the Tate Collection Dataset
+                    ([25]) into their content. In this paper, artworks will be classified into 15 general icons
+                    based not only on the recognition of physical elements in an artwork but abstract
+                    concepts such as Religion & Belief as well. In Appendix 1, we show some preliminary
+                    results on 141, more specific, classes using hierarchical methods. The best model,
+                    CNN-RNN, achieves a mean per-class precision of 0.57 and a per-class accuracy of
+                    0.83.
+                    The automatic generation of iconographical metadata will contribute to enrich the
+                    indexation of artworks, allowing to search paintings by content rather than only
+                    by artist, style and period, as most websites offer now. On a broader level, these
+                    experiments will allow us to trace some conclusions on the ability of current machine
+                    learning techniques to recognise the content of artistic depictions: Are the models
+                    able to extrapolate the manner in which objects are depicted in art? Can they
+                    understand how specific abstract themes and concepts are represented?
+
+                    <br><br>
+                    For the full text: <a href='Capstone_Ludovica_Schaerf.pdf'>here</a>. <br>
+                    For the code: <a href='https://github.com/ludovicaschaerf/CapstoneLudovicaSchaerf'>here</a>.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class='row justify-content-md-center mt-5 pb-5' style='background-color:black'>
+        <div class="col-md-9 pt-5">
+            <img src="guitar.png" style='float:left; padding-top:20px;'  height=100% width=100%>
+            <p style='font-size:12px'>Caravaggio and Picasso. Guitar. </p>
+        </div>
+        <div class='col-md-9'>
+            <p style='color:white'><br>
+
+                In short, the intent of this visualization is to exploit the possibilities opened up by the Subject
+                index on
+                Modern and Contemporary art. As art belonging to the Avantgardes of these last two centuries witnesses
+                often
+                a detachment from forms and colors, the contenutistic and symbolic aspects of this art become
+                progressively
+                less directly associated with the forms and colors used to depict them. By presenting artworks organized
+                by
+                their index (and therefore their content), this project aims to stimulate the user into understanding
+                what
+                forms and colors are distinctive of certain contents. It aims to do so for Avantgarde art, as this
+                association of forms and colors to contents is weak.
+
+
+            </p>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class='row justify-content-md-center pt-5'>
+        <div class='col-md-9' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+            <p><br>
+                <a href='multi_label.html'>Back to top </a>
+            </p>
+
+        </div>
+    </div>
+
+
+</body>
