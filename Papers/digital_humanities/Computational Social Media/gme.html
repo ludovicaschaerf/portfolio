@@ -12,9 +12,7 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!--link rel="stylesheet" href="./css/bootstrap.min.css"-->
@@ -23,27 +21,37 @@
 </head>
 
 <body>
-    <div class='row justify-content-md-center'>
-        <div class='col-9'>
+    <div class='row justify-content-center'>
+        <div class='col-8'>
             <!-- Setting the navigation bar at the top of the screen -->
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
-                <h2 style='font-size: 25px;'>
-                    Ludovica Schaerf
-                </h2>
-
-                <div class="justify-content-md-right">
+                <a href='../../index.html' style='text-decoration: none;'>
+                    <h3 style='font-size: 25px;'>
+                        Ludovica Schaerf
+                        </h2>
+                </a>
+                <div class="justify-content-right">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href='index.html'>
-                                Projects
-                                <span class="visually-hidden">(current)</span>
-                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html"
+                                role="button" aria-expanded="false">Projects <span
+                                    class="visually-hidden">(current)</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../critical_futures/index.html">Critical Futures of
+                                        Religion</a></li>
+                                <li><a class="dropdown-item" href="../database_art/index.html">Data Visualization</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../digital_humanities/index.html">Digital
+                                        Humanities</a></li>
+                                <li><a class="dropdown-item" href="../critics_analysis_arts/index.html">Philosophy of
+                                        Arts and Tech</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="../../about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="../../contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -51,11 +59,12 @@
         </div>
     </div>
 
-    <div class='row justify-content-md-center'>
+    <div class='row justify-content-center'>
 
-        <div class="col-md-4">
+        <div class="col-3">
             <br>
             <h5 style='text-align:left;'>GME to the Moon</h5>
+            <h6 style='text-align:left'>How r/WallStreetBets squeezed GameStop</h6>
 
             <p style='text-align:left;'> Year: 2021 <br>
                 Class: Computational Social Media<br>
@@ -64,8 +73,8 @@
             <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
                 <br>
             </div>
-            <img src="../dgrvr88-Diego-Rivera-Stock-Market-1000x1000.jpg" style=' padding-top:20px;' height=70%
-                width=70%>
+            <img src="../dgrvr88-Diego-Rivera-Stock-Market-1000x1000.jpg" style=' padding-top:20px;' height=40%
+                width=100%>
             <p style='font-size:12px'>Rivera Diego. Stock Market. From <a
                     href="https://www.arthipo.com/diego-rivera-stock-market.html">here</a></p>
             <br>
@@ -73,16 +82,51 @@
 
 
         </div>
-        <div class="col-md-5 ps-5">
+        <div class="col-5 ps-5">
             <div width=100% height=70%>
                 <p style='text-align:left;'><br>
-                    In January 2021, the Reddit community r/WallStreetBets was attributed for causing a once-in-a-decade
-                    short squeeze on the GameStop
-                    stock. In this paper, we analyze the interactions (posts, comments)
-                    within the community to determine whether the community could
-                    indeed have been responsible, and whether the actions of the community represent a mass movement of
-                    individual players.
-                    <br><br>
+                    Communities on social media have the power to affect large-scale
+                    social movements since social media allows people to connect far
+                    beyond their local communities, and with unprecedented speed.
+                    In this paper, we investigate the role of a community on the
+                    social media platform Reddit, r/WallStreetBets (r/WSB), in the short
+                    squeeze of the publicly traded stocks of GameStop, a retailer of video
+                    games with physical stores across the world.
+                    In January 2021, the stock prices of GameStop ($GME stock)
+                    saw a bizarre price movement. Whereas the stock had consistently
+                    traded for less than $10 over the previous year, the price rose meteorically, peaking at $347 [17].
+                    Being a physical retailer in the age
+                    of giant digital game distributors such as Steam and Epic Games,
+                    GameStop was widely regarded as a relic of the past and predicted
+                    to slowly fade into irrelevance (parallels exist to the decline of the
+                    video rental chain Blockbuster, being supplanted by video streaming
+                    services such as Netflix).
+                    There were two major factions betting on $GME. On one side,
+                    hedge funds had made short contracts amounting to more than
+                    140% of $GME’s stocks [1]. On the other side, prominent members
+                    of the r/WallStreetBets community encouraged retail investors to
+                    buy the stock en masse, believing it to be undervalued [6]. During
+                    the ensuing price spike, it is reported that short sellers lost over $6
+                    billion [1]. While long term stock holders from the Reddit community made significant gains, a large
+                    number of Reddit users who
+                    entered the market near the peak have suffered large losses.
+                    Our interest in the $GME short squeeze revolves around understanding the dynamics of the Reddit
+                    community (called a subreddit
+                    in Reddit terminology). To counter the billions invested by hedge
+                    funds, the investments from the subreddit would have to match
+                    it. Given the limited means of retail investors, a large number of
+                    them would have to pool resources to cause the short squeeze, as
+                    often claimed [6, 17]. Or the short squeeze might also have been
+                    driven and orchestrated by a few financially strong actors. This introduces our first research
+                    question: whether the /r/WallStreetBets
+                    community is dominated by a few highly influential individuals,
+                    or whether the community is more egalitarian and influenced by a
+                    larger number of members.
+                    For our second research question, we ask whether the actors in
+                    the subreddit were actually responsible for the short squeeze, and
+                    whether the publicly available information from the subreddit can
+                    be used to measure the impact of the subreddit on price fluctuations
+                    of $GME.<br><br>
                     For the full text: <a href='GMEMoonBase.pdf'>here</a>. <br>
                     For the code: <a href='https://github.com/atrib/GMEMoonBase'>here</a>.
                 </p>
@@ -94,14 +138,18 @@
 
 
 
-    <div class='row justify-content-md-center pt-5'>
-        <div class='col-md-9' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+    <div class='row justify-content-center pt-5' style='margin-top:90px'>
+        <div class='col-8' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
             <p><br>
-                <a href='gme.html'>Back to top </a>
+                Back to top <a href='gme.html'><span class="material-icons">
+                        vertical_align_top
+                    </span></a>
+
             </p>
 
         </div>
     </div>
+
 
 
 </body>
