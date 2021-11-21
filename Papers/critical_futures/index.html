@@ -12,96 +12,106 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="./css/bootstrap.min.css"-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
+
 <body>
-    <div class='row justify-content-md-center'>
-        <div class='col-9'>
+    <div class='row justify-content-center'>
+        <div class='col-8'>
             <!-- Setting the navigation bar at the top of the screen -->
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
-                <h2 style='font-size: 25px;'>
-                    Ludovica Schaerf
-                </h2>
-
-                <div class="justify-content-md-right">
+                <a href='../../index.html' style='text-decoration: none;'>
+                    <h3 style='font-size: 25px;'>
+                        Ludovica Schaerf
+                        </h2>
+                </a>
+                <div class="justify-content-right">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href='index.html'>
-                                Projects
-                                <span class="visually-hidden">(current)</span>
-                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">Projects <span class="visually-hidden">(current)</span></a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="../critical_futures/index.html">Critical Futures of Religion</a></li>
+                              <li><a class="dropdown-item" href="../database_art/index.html">Data Visualization</a></li>
+                              <li><a class="dropdown-item" href="../digital_humanities/index.html">Digital Humanities</a></li>
+                              <li><a class="dropdown-item" href="../critics_analysis_arts/index.html">Philosophy of Arts and Tech</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="../../about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="../../contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
             <p>
-                Critical futures for religion: These two projects probably constitute my only two 'artsy' pieces of work. ...
+                Critical futures for religion
             </p>
         </div>
     </div>
-    <div class='row justify-content-md-center pt-5'>
+    <div class='row justify-content-center pt-5'>
         
-        <div class="col-md-3">
+        <div class="col-3" style='text-align:left'>
             <a href="Artistic Practices/Pigeon religion/pigeon_religion.html">
                 <img src='fliers.jpg' alt='Pigeon Religion'
-                    height=100% width=100%>
+                    height=90% width=90% >
             </a>
 
             <p style='font-size:12px'>Ludovica Schaerf. Pigeon religion fliers and poster.</p>
             
-            <span class="imgtext">
+            <span class="imgtext" style='top: 35%;'>
                 Pigeon Religion
             </span>
 
         </div>
-        <div class="col-md-3 pt-5 pe-4">
-            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
+        <div class="col-2 pt-5 pe-4">
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70% >
                 <br><p>
-                    < Speculare su un nuovo futuro per gli animali urbani: i piccioni
+                    <span class="material-icons">
+                        chevron_left
+                    </span> 
+                    <b>Pigeon Religion</b> Speculare su un nuovo futuro per gli animali urbani: i piccioni
                 </p>
                 <p>
-                    mostrare l'assurda utilità dell'AI per la religione >
+                    <b>AI Priest</b> mostrare l'assurda utilità dell'AI per la religione <span class="material-icons">
+                        chevron_right
+                    </span>
                 </p>
             </div>
         
         </div>
-        <div class="col-md-3">
+        <div class="col-3">
             <a href="Artistic Practices/AI priest/ai_priest.html">
                 <img src='Artistic Practices/AI priest/1636877958014.jpg' alt='AI Priest'
-                    height=80% width=120%>
+                    height=70% width=100%>
             </a>
-            <p style='font-size:12px'>Unknown. Tre Grazie. From <a href="https://wave.fr/daniel-arsham-paris-galerie-perrotin-271309">here</a></p>
+            <p style='font-size:12px'>Peter Von Cornelius. The three Marys at the sepulcher. From <a href="https://www.vaticannews.va/it/chiesa/news/2021-04/pasqua-resurrezione-arte-academy-for-christian-art.html">here</a></p>
             
-            <span class="imgtext">
+            <span class="imgtext" style='top: 35%;'>
                 AI Priest
             </span>
         </div>
         
     </div>
 
-    <div class='row justify-content-md-center pt-5'>
-        <div class='col-md-9' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+    <div class='row justify-content-center pt-5' style='margin-top:90px'>
+        <div class='col-8' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
             <p><br>
-                <a href='index.html'>Back to top </a>
-            </p>
-            
-        </div>        
-    </div>
+                Back to top <a href='index.html'><span class="material-icons">
+                        vertical_align_top
+                    </span></a>
 
+            </p>
+
+        </div>
+    </div>
 
 
 </body>

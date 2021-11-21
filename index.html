@@ -6,38 +6,46 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Ludovica Schaerf</title>
     <!-- Importing required libraries-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--link rel="stylesheet" href="./css/bootstrap.min.css"-->
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
-    <div class='row justify-content-md-center'>
-        <div class='col-9'>
+    <div class='row justify-content-center'>
+        <div class='col-8'>
             <!-- Setting the navigation bar at the top of the screen -->
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
-                <h2 style='font-size: 25px;'>
-                    Ludovica Schaerf
-                </h2>
-
-                <div class="justify-content-md-right">
+                <a href='index.html' style='text-decoration: none;'>
+                    <h3 style='font-size: 25px;'>
+                        Ludovica Schaerf
+                        </h2>
+                </a>
+                <div class="justify-content-right">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href='index.html'>
-                                Projects
-                                <span class="visually-hidden">(current)</span>
-                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html"
+                                role="button" aria-expanded="false">Projects <span
+                                    class="visually-hidden">(current)</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Papers/critical_futures/index.html">Critical Futures
+                                        of Religion</a></li>
+                                <li><a class="dropdown-item" href="Papers/database_art/index.html">Data
+                                        Visualization</a></li>
+                                <li><a class="dropdown-item" href="Papers/digital_humanities/index.html">Digital
+                                        Humanities</a></li>
+                                <li><a class="dropdown-item" href="Papers/critics_analysis_arts/index.html">Philosophy
+                                        of Arts and Tech</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -53,87 +61,114 @@
             </p>
         </div>
     </div>
-    <div class='row justify-content-md-center pt-5'>
-        
-        <div class="col-md-3" style='margin-left: -35px;'>
-            <a href="Papers/critical_futures/index.html">
-                <img src='Papers/critical_futures/Artistic Practices/adoration_bosch.jpg' alt='Critical Futures'
-                    height=90% width=90%>
-                    
-            </a>
-            <p style='font-size:12px'>Hieronymus Bosch (1568-1600). Adoration of the shepherds. From <a href="https://en.wikipedia.org/wiki/Adoration_of_the_Christ_Child_(Bosch)#/media/File:BoschAdorationOfTheChildPainting.jpg">here</a></p>
-            <span class="imgtext">
-                Critical Futures of Religion
-            </span>
+    <div class='row justify-content-center pt-5'>
 
-        </div>
-        <div class="col-md-3 pt-5 pe-4">
-            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
-                <br><p>
-                    < portare la religione all'assurdo, al futuro. Speculando sulla religione del futuro
-                </p>
-                <p>
-                    mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo >
-                </p>
-            </div>
-        
-        </div>
-        <div class="col-md-2">
-            <a href="Papers/database_art/index.html"><img src='Papers/database_art/1635692424649.jpg' alt='Data Art'
-                    height=70% width=120%></a>
-            <p style='font-size:12px'>Jim Davenport. Visualisation of the 2D outlines of Tate’s collection. From <a href="https://www.tate.org.uk/about-us/projects/transforming-tate-britain-archives-access/archives-access-project-open-data-brings">here</a></p>
-            <span class="imgtext">
-                Data Visualization
-            </span>
-        </div>
-        <div class="col-md-1"></div>
-        
-    </div>
-    <div class='row justify-content-md-center pt-5'>
-        <div class="col-md-1"></div>
-        
-        <div class="col-md-3">
-            <a href="Papers/digital_humanities/index.html"><img
-                src='Papers/digital_humanities/prete_scriba.png' alt='Digital Humanities' height=60% width=120%>
+        <div class="col-3" style='text-align:left'>
+            <a href="Papers/digital_humanities/index.html"><img src='Papers/digital_humanities/prete_scriba.png'
+                    alt='Digital Humanities' height=90% width=100%>
             </a>
-            <p style='font-size:12px'>Unknown. Bizantine painting of a scribe annotating a book. From <a href="https://britishlibrary.typepad.co.uk/.a/6a00d8341c464853ef01a511c277ca970c-popup">here</a></p>
-            <span class="imgtext">
+            <p style='font-size:12px'>Unknown. Bizantine painting of a scribe annotating a book. From <a
+                    href="https://britishlibrary.typepad.co.uk/.a/6a00d8341c464853ef01a511c277ca970c-popup">here</a></p>
+            <span class="imgtext" style='top: 25%;'>
                 Digital Humanities
             </span>
-            <br>
-            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
-                <br><p>
-                    ^ come il digital humanist, l'amanuense organizza libri, li annota, li riscrive, gestisce la troppa conoscenza.
+
+        </div>
+        <div class="col-2 pt-5 pe-4">
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100%
+                height=70%>
+                <br>
+                <p>
+                    <span class="material-icons">
+                        chevron_left
+                    </span> <b>Digital Humanities</b> come il digital humanist, l'amanuense organizza libri, li annota,
+                    li
+                    riscrive, gestisce la troppa conoscenza.
                 </p>
                 <p>
-                    Lì dove passato e presente si uniscono, il filosofo pensatore e gli elementi archetipi dell'estetica, le pietre preziose, si uniscono. >
+                    <b>Data Visualization</b> mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo
+                    <span class="material-icons">
+                        chevron_right
+                    </span>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-3">
+            <a href="Papers/database_art/index.html"><img src='Papers/database_art/1635692424649.jpg' alt='Data Art'
+                    height=70% width=100%></a>
+            <p style='font-size:12px'>Jim Davenport. Visualisation of the 2D outlines of Tate’s collection. From <a
+                    href="https://www.tate.org.uk/about-us/projects/transforming-tate-britain-archives-access/archives-access-project-open-data-brings">here</a>
+            </p>
+            <span class="imgtext" style='top: 35%;'>
+                Data Visualization and Analysis
+            </span>
+        </div>
+
+    </div>
+    <div class='row justify-content-center pt-5'>
+        <div class="col-1"></div>
+
+        <div class="col-3 pt-5">
+            <a href="Papers/critical_futures/index.html">
+                <img src='Papers/critical_futures/Artistic Practices/adoration_bosch.jpg' alt='Critical Futures'
+                    height=50% width=90%>
+
+            </a>
+            <p style='font-size:12px'>Hieronymus Bosch (1568-1600). Adoration of the shepherds. From <a
+                    href="https://en.wikipedia.org/wiki/Adoration_of_the_Christ_Child_(Bosch)#/media/File:BoschAdorationOfTheChildPainting.jpg">here</a>
+            </p>
+            <span class="imgtext" style='top: 35%;'>
+                Critical Futures of Religion
+            </span>
+            <br>
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100%
+                height=70%>
+                <br>
+                <p>
+                    <span class="material-icons">
+                        expand_less
+                    </span><b>Critical Futures of Religion</b> portare la religione all'assurdo, al futuro. Speculando
+                    sulla religione del futuro
+
+                </p>
+                <p>
+                    <b>Philosophy of Arts and Tech</b> Lì dove passato e presente si uniscono, il filosofo pensatore e
+                    gli elementi archetipi dell'estetica, le pietre preziose, si uniscono.
+                    <span class="material-icons">
+                        chevron_right
+                    </span>
                 </p>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-1">
         </div>
-        
-        <div class="col-md-3 pt-5" style='margin-top:50px'>
+
+        <div class="col-3 pt-5" style='margin-top:50px'>
             <a href="Papers/critics_analysis_arts/index.html"><img
-                src='Papers/critics_analysis_philosophical/daniel-arsham-paris-3020-perrotin-1.jpg'
-                alt='Philosophical Analyses' height=80% width=100%></a>
-            <p style='font-size:12px'>Daniel Arsham. Eroded Classical Sculpture. From <a href="https://wave.fr/daniel-arsham-paris-galerie-perrotin-271309">here</a></p>
-            <span class="imgtext1">
+                    src='Papers/critics_analysis_philosophical/daniel-arsham-paris-3020-perrotin-1.jpg'
+                    alt='Philosophical Analyses' height=70% width=100%></a>
+            <p style='font-size:12px'>Daniel Arsham. Eroded Classical Sculpture. From <a
+                    href="https://wave.fr/daniel-arsham-paris-galerie-perrotin-271309">here</a></p>
+            <span class="imgtext">
                 Philosophy of Arts and Tech
             </span>
-            
+
         </div>
-        
+
     </div>
 
 
-    <div class='row justify-content-md-center pt-5'>
-        <div class='col-md-9' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+    <div class='row justify-content-center pt-5' style='margin-top:90px'>
+        <div class='col-8' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
             <p><br>
-                <a href='index.html'>Back to top </a>
+                Back to top <a href='index.html'><span class="material-icons">
+                        vertical_align_top
+                    </span></a>
+
             </p>
-            
-        </div>        
+
+        </div>
     </div>
 
 

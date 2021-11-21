@@ -11,39 +11,39 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="./css/bootstrap.min.css"-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
 <body>
-    <div class='row justify-content-md-center'>
-        <div class='col-9'>
+    <div class='row justify-content-center'>
+        <div class='col-8'>
             <!-- Setting the navigation bar at the top of the screen -->
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
-                <h2 style='font-size: 25px;'>
-                    Ludovica Schaerf
-                </h2>
-
-                <div class="justify-content-md-right">
+                <a href='../../index.html' style='text-decoration: none;'>
+                    <h3 style='font-size: 25px;'>
+                        Ludovica Schaerf
+                        </h2>
+                </a>
+                <div class="justify-content-right">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href='index.html'>
-                                Projects
-                                <span class="visually-hidden">(current)</span>
-                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">Projects <span class="visually-hidden">(current)</span></a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="../critical_futures/index.html">Critical Futures of Religion</a></li>
+                              <li><a class="dropdown-item" href="../database_art/index.html">Data Visualization</a></li>
+                              <li><a class="dropdown-item" href="../digital_humanities/index.html">Digital Humanities</a></li>
+                              <li><a class="dropdown-item" href="../critics_analysis_arts/index.html">Philosophy of Arts and Tech</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="../../about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="../../contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -53,107 +53,123 @@
             </p>
         </div>
     </div>
-    <div class='row justify-content-md-center pt-5'>
-        
-        <div class="col-md-3">
-            <a href="index.html">
-                <img src='ai_art.jpg' alt='Aesthetics of AI Art'
-                    height=90% width=90%>
+    <div class='row justify-content-center pt-5'>
+
+        <div class="col-3" style='text-align:left'>
+            <a href="ai_art.html">
+                <img src='ai_art.jpg' alt='Aesthetics of AI Art' height=90% width=90%>
             </a>
-            <p style='font-size:12px'>... AI Generate Art. Painting of a man.</p>
-            
+            <p style='font-size:12px'>Edmond de Belamie (2018). AI Generated Art. Painting of a man. Retrieved from: <a href=https://scitechdaily.com/artificial-intelligence-generated-artwork-sells-for-432500-is-ai-a-simple-tool-or-creative-genius/ >here</a></p>
+
 
             <span class="imgtext">
                 Aesthetics of AI Art
             </span>
 
         </div>
-        <div class="col-md-3 pt-5 pe-4">
-            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
-                <br><p>
-                    < portare la religione all'assurdo, al futuro. Speculando sulla religione del futuro
+        <div class="col-2 pt-5 pe-4">
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100%
+                height=70%>
+                <br>
+                <p>
+                    <span class="material-icons">
+                        chevron_left
+                    </span> <b>Aesthetics of AI Art </b> portare la religione all'assurdo, al futuro. Speculando sulla religione del futuro 
                 </p>
                 <p>
-                    mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo >
+                    <b> Aesthetics of Art</b> mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo <span class="material-icons">
+                        chevron_right
+                    </span>
                 </p>
             </div>
-        
+
         </div>
-        <div class="col-md-3">
-            <a href="index.html"><img src='1636877958029.jpg' alt='Aesthetics of Art'
-                    height=70% width=120%>
+        <div class="col-3 pt-5">
+            <a href="aesthetics_kandinsky.html"><img src='1636877958029.jpg' alt='Aesthetics of Art' height=70% width=100%>
             </a>
-            <p style='font-size:12px'>Vasily Kandinsky. Mit und Gegen.</p>
-            
+            <p style='font-size:12px'>Vasily Kandinsky. Mit und Gegen. Retrieved from: <a href=https://www.wassily-kandinsky.org/Mit-und-Gegen.jsp >here</a></p>
+
             <span class="imgtext">
                 Aesthetics of Art
             </span>
         </div>
-        
+
     </div>
-    <div class='row justify-content-md-center pt-5'>
-        
-        <div class="col-md-4">
-            <img src='1636877957999.jpg' alt='Baccae' height=60% width=100%>
-            <p style='font-size:12px'>Unknown. Baccae.</p>
-            
-            <span class="imgtext">
-               Ancient and Romantic Literature of Possession
+    <div class='row justify-content-center pt-5'>
+
+        <div class="col-4 ps-5 pe-5">
+            <a href="baccae_yellow.html"><img src='1636877957999.jpg' alt='Baccae' height=50% width=90%></a>
+            <p style='font-size:12px'>William-Adolphe Bouguereau. The youth of Baccum. Retrieved from: <a href=https://it.wikipedia.org/wiki/Le_Baccanti >here</a></p>
+
+            <span class="imgtext" style='top: 35%;'>
+                Ancient and Romantic Literature of Degenerationism
             </span>
             <br>
             <div class='pt-3'></div>
-            
-            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
-                <br><p>
-                    ^ portare la religione all'assurdo, al futuro.
+
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100%
+                height=70%>
+                <br>
+                <p>
+                    <span class="material-icons">
+                        expand_less
+                    </span>
+                     <b>Ancient and Romantic Literature of Possession </b>portare la religione all'assurdo, al futuro.
                 </p>
                 <p>
-                    mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo >
+                    <b>Branding of an Old Master </b>mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo <span class="material-icons">
+                        chevron_right
+                    </span>
+                    
                 </p>
                 <p>
-                    mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo v
+                    <b>Metaphysics of Black Box Algorithms </b>mostrare e ricreare l'arte con la tecnologia, scomparendo e ricomparendo <span
+                        class="material-icons">
+                        expand_more
+                    </span>
                 </p>
             </div>
         </div>
 
-        <div class='col-md-2'></div>
-        <div class="col-md-3">
-            <img src='1636877957984.jpg' alt='Branded artwork' height=90% width=110%>
-            <p style='font-size:12px'>Leonardo Da Vinci. Cristo...</p>
-            
+        <div class="col-3">
+            <a href="salvator_mundi.html"><img src='1636877957984.jpg' alt='Branded artwork' height=90% width=110%></a>   
+            <p style='font-size:12px'>Leonardo Da Vinci (?). Salvator Mundi. Retrieved from <a href=https://it.wikipedia.org/wiki/Salvator_mundi_(Leonardo) >here</a></p>
+
             <span class="imgtext">
                 Branding of an Old Master
             </span>
-            
+
         </div>
+        <div class='col-1'></div>
+        
     </div>
     <div class='row justify-content-md-left pt-5'>
-    
-        <div class='col-md-2'></div>
-        
-        <div class="col-md-4 pt-5">
-            <img
-                src='1636877957968.jpg'
-                alt='Metaphysics of Black Box Algorithms' height=80% width=100%>
-            <p style='font-size:12px'>Unknown. Balck Box</p>
-            
+
+        <div class='col-2'></div>
+
+        <div class="col-4 pt-5">
+            <a href="black_box.html"><img src='1636877957968.jpg' alt='Metaphysics of Black Box Algorithms' height=100% width=100%></a>  
+            <p style='font-size:12px'>Unknown. Black Box. Retrieved from: <a href=https://singularityhub.com/2019/04/17/in-defense-of-black-box-ai/ >here</a></p>
+
             <span class="imgtext">
                 Metaphysics of Black Box Algorithms
             </span>
-            
+
         </div>
-        
+
     </div>
 
-    <div class='row justify-content-md-center pt-5' style='margin-top:90px'>
-        <div class='col-md-9' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+    <div class='row justify-content-center pt-5' style='margin-top:90px'>
+        <div class='col-md-8' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
             <p><br>
-                <a href='index.html'>Back to top </a>
-            </p>
-            
-        </div>        
-    </div>
+                Back to top <a href='index.html'><span class="material-icons">
+                        vertical_align_top
+                    </span></a>
 
+            </p>
+
+        </div>
+    </div>
 
 
 

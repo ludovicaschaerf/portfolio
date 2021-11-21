@@ -12,38 +12,40 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="./css/bootstrap.min.css"-->
     <link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
+
 <body>
-    <div class='row justify-content-md-center'>
-        <div class='col-9'>
+    <div class='row justify-content-center'>
+        <div class='col-8'>
             <!-- Setting the navigation bar at the top of the screen -->
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
-                <h2 style='font-size: 25px;'>
-                    Ludovica Schaerf
-                </h2>
-
-                <div class="justify-content-md-right">
+                <a href='../../index.html' style='text-decoration: none;'>
+                    <h3 style='font-size: 25px;'>
+                        Ludovica Schaerf
+                        </h2>
+                </a>
+                <div class="justify-content-right">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href='index.html'>
-                                Projects
-                                <span class="visually-hidden">(current)</span>
-                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">Projects <span class="visually-hidden">(current)</span></a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="../critical_futures/index.html">Critical Futures of Religion</a></li>
+                              <li><a class="dropdown-item" href="../database_art/index.html">Data Visualization</a></li>
+                              <li><a class="dropdown-item" href="../digital_humanities/index.html">Digital Humanities</a></li>
+                              <li><a class="dropdown-item" href="../critics_analysis_arts/index.html">Philosophy of Arts and Tech</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="../../about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="../../contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -53,14 +55,14 @@
             </p>
         </div>
     </div>
-    <div class='row justify-content-md-center pt-5'>
+    <div class='row justify-content-center pt-5'>
 
-        <div class="col-md-4">
+        <div class="col-3">
             <a href="http://localhost/?search=media&click=">
-                <img src='gutenberg.jpg' alt='SSH Platform' height=50% width=100%></a>
-                <p style='font-size:12px'>Unknown. Gutemberg Press.</p>
+                <img src='printing_press.jpg' alt='SSH Platform' height=50% width=100%></a>
+                <p style='font-size:12px'>Ralph Leslie Swinden. Caxton and the Printing Press. Retrieved from <a href=https://artuk.org/discover/artworks/caxton-and-the-printing-press-44127> here </a>.</p>
             
-            <span class="imgtext">
+            <span class="imgtext" style='top: 18%;'>
                 SSH Platform
             </span>
             <div class='pt-3'></div>
@@ -68,22 +70,28 @@
                 height=70%>
                 <br>
                 <p>
-                    ^ reinventare i motori di ricerca
+                    <span class="material-icons">
+                        expand_less
+                    </span>
+                    <b>SSH Platform </b>reinventare i motori di ricerca
                 </p>
                 <br>
                 <p>
-                    portare diversi livelli di iconografia all'occhio nudo >
+                    <b>TATE visualized </b>portare diversi livelli di iconografia all'occhio nudo <span class="material-icons">
+                        chevron_right
+                    </span>
+                    
                 </p>
             </div>
 
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-1"></div>
 
-        <div class="col-md-4 pt-5" style='margin-top:100px'>
+        <div class="col-4 pt-5">
             <a href="cultural_data_sculpting/tate_visualized.html">
-                <img src='cultural_data_sculpting/2021-05-30 (1).png' alt='TATE visualized' height=70% width=110%>
+                <img src='cultural_data_sculpting/2021-05-30 (1).png' alt='TATE visualized' height=70% width=100%>
             </a>
-            <p style='font-size:12px'>Giacomo Balla. Trittico la macchina (?).</p>
+            <p style='font-size:12px'>Giacomo Balla (1913). Abstract speed - The car has passed. Retrieved from <a href=https://www.deartibus.it/drupal/content/velocit%C3%A0-astratta-l%E2%80%99auto-%C3%A8-passata> here </a>.</p>
             
             <span class="imgtext">
                 TATE visualized
@@ -91,11 +99,11 @@
         </div>
         
     </div>
-    <div class='row justify-content-md-center'>
+    <div class='row justify-content-center'>
 
-        <div class="col-md-5 ps-5">
+        <div class="col-4 ps-5">
             <a href="Foundation of Digital Humanities/roland_libretti.html">
-                <img src='Foundation of Digital Humanities/libretti18.jpg' alt='SSH Platform' height=80% width=90%></a>
+                <img src='Foundation of Digital Humanities/libretti18.jpg' alt='SSH Platform' height=100% width=100%></a>
                 <p style='font-size:12px'>Unknown. Libretti d'opera. Retrieved from <a href=https://iicvarsavia.esteri.it/iic_varsavia/it/gli_eventi/calendario/libretti-d-opera-fra-italia-e-polonia.html> here </a>.</p>
             
             <span class="imgtext">
@@ -104,13 +112,16 @@
         </div>
 
         
-        <div class="col-md-4">
+        <div class="col-4">
             <div class='pt-3'></div>
             <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100%
                 height=70%>
                 <br>
                 <p>
-                    < ridare vita a dati del passato
+                    <span class="material-icons">
+                        chevron_left
+                    </span>
+                    <b>Libretti Rolandi</b> ridare vita a dati del passato
                 </p>
                 
             
@@ -121,14 +132,18 @@
 
 
 
-    <div class='row justify-content-md-center pt-5'>
-        <div class='col-md-9' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+    <div class='row justify-content-center pt-5' style='margin-top:90px'>
+        <div class='col-8' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
             <p><br>
-                <a href='index.html'>Back to top </a>
+                Back to top <a href='index.html'><span class="material-icons">
+                        vertical_align_top
+                    </span></a>
+
             </p>
-            
-        </div>        
+
+        </div>
     </div>
+
 
 
 </body>
