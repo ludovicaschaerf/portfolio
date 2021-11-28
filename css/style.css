@@ -137,3 +137,8 @@ b {
   font-size: 25px;
   vertical-align: bottom;
 }
+
+.material-icons-outlined {
+  font-size: 20px;
+  vertical-align: center;
+}
