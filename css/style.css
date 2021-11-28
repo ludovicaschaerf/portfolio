@@ -103,7 +103,7 @@ b {
   opacity: 100;
 }
 
-.col-3, .col-4, .col-5, .col-2  {
+.col-md-3, .col-md-4, .col-md-5, .col-md-2, .col-3, .col-4, .col-5, .col-2  {
   position: relative;
   text-align: center;
   color: white;
