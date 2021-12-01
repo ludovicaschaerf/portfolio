@@ -106,6 +106,12 @@ b {
     .dropdown-menu>li:hover>.submenu {
         display: block;
     }
+    .dropdown-menu>li:click {
+        background-color: #f1f1f1
+    }
+    .dropdown-menu>li:click>.submenu {
+        display: block;
+    }
 }
 
 
