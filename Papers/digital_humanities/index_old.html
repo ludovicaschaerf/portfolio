@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Ludovica Schaerf</title>
+    <!-- Importing required libraries-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/utils.js"></script>
+
+
+</head>
+
+<body>
+    <div class='row justify-content-center'>
+        <div class='col-8'>
+            <!-- Setting the navigation bar at the top of the screen -->
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between mr-2 mt-4">
+                <a href='../../index.html' style='text-decoration: none;'>
+                    <h3 style='font-size: 25px;'>
+                        Ludovica Schaerf
+                        </h2>
+                </a>
+                <div class="justify-content-right">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Project areas </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="../../Papers/digital_humanities/index.html"> Digital
+                                        Humanities <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/bachelor_thesis/multi_label.html">Multi-label
+                                                Classification of Artworks</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/Digital%20Musicology/debussy.html">Debussy's
+                                                Tonal Ambiguity</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/Computational%20Social%20Media/gme.html">GME
+                                                to
+                                                the Moon </a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/History%20and%20the%20Digital/swiss_identity.html">Swiss
+                                                Identity</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="../../Papers/database_art/index.html"> Data Analysis and
+                                        Visualization <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../../Papers/database_art/ssh_platform.html">
+                                                Social Sciences and Humanities Platform</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../Papers/database_art/cultural_data_sculpting/tate_visualized.html">TATE
+                                                Subjects
+                                                Visualized</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../Papers/database_art/Foundation%20of%20Digital%20Humanities/roland_libretti.html">Rolandi
+                                                Libretti</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="../../Papers/critical_futures/index.html"> Design and
+                                        Critical Futures <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../../Papers/critical_futures/Artistic%20Practices/Pigeon%20religion/pigeon_religion.html">Pigeon
+                                                Religion</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critical_futures/Artistic%20Practices/AI%20priest/ai_priest.html">AI
+                                                Priest</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/index.html">
+                                        Philosophy of Arts and Tech <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/ai_art.html">Aesthetics
+                                                of AI-Generated Paintings</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/aesthetics_kandinsky.html">'Mit
+                                                und Gegen' The two Levels of an Artwork </a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/baccae_yellow.html">The
+                                                Continuity of Degenerationism</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/salvator_mundi.html">The
+                                                Branding of an Old Master</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/black_box.html">Metaphysics
+                                                of Black Box Algorithms</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Resources links </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="#"> Essays <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/bachelor_thesis/Capstone_Ludovica_Schaerf.pdf">Multi-label
+                                                Classification of Artworks</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/Digital%20Musicology/Digital_Musicology_Final_Paper.pdf">Debussy's
+                                                Tonal Ambiguity</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/Computational%20Social%20Media/GMEMoonBase.pdf">GME
+                                                to
+                                                the Moon </a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/digital_humanities/History%20and%20the%20Digital/Swiss_Identity__Final_Report.pdf">Swiss
+                                                Identity</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../Papers/database_art/cultural_data_sculpting/CDS%20-%20Final%20Report%20-%20Ludovica%20Schaerf.pdf">TATE
+                                                Subjects
+                                                Visualized</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="http://fdh.epfl.ch/index.php/Rolandi_Librettos">Rolandi
+                                                Libretti</a></li>
+
+                                        <li><a class="dropdown-item" href="../../Papers/critical_futures/Artistic%20Practices/AI%20priest/Artistic%20Practices%20Final%20Report.pdf">AI
+                                                Priest</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/ARW%20-%20Final%20Paper%20-%20Ludovica%20Schaerf%20.pdf">Aesthetics
+                                                of AI-Generated Paintings</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/Paper%202%20Philosophical%20Problems.pdf">'Mit
+                                                und Gegen' The two Levels of an Artwork </a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/Literature%20and%20Science%20Paper_Ludovica%20Schaerf.pdf">The
+                                                Continuity of Degenerationism</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/Art%20Market%20and%20Cultural%20Industry%20Paper.pdf">The
+                                                Branding of an Old Master</a></li>
+                                        <li><a class="dropdown-item" href="../../Papers/critics_analysis_arts/philosophical%20problems%20paper%203.pdf">Metaphysics
+                                                of Black Box Algorithms</a></li>
+
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="#"> Codes <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="https://github.com/ludovicaschaerf/CapstoneLudovicaSchaerf">Multi-label
+                                                Classification of Artworks</a></li>
+                                        <li><a class="dropdown-item" href="https://github.com/ludovicaschaerf/Group-5-Debussy-Pitch-Scapes">Debussy's
+                                                Tonal Ambiguity</a></li>
+                                        <li><a class="dropdown-item" href="https://github.com/atrib/GMEMoonBase">GME to
+                                                the Moon </a></li>
+                                        <li><a class="dropdown-item" href="https://github.com/ludovicaschaerf/H-D_Project">Swiss Identity</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="https://github.com/ludovicaschaerf/TATE_Subjects">TATE Subjects
+                                                Visualized</a></li>
+                                        <li><a class="dropdown-item" href="https://github.com/Harshdeep1996/Harshdeep1996.github.io">Rolandi
+                                                Libretti</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#"> Websites <span class="material-icons">
+                                            arrow_right
+                                        </span> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="https://ludovicaschaerf.github.io/TATE_Subjects/">TATE Subjects
+                                                Visualized</a></li>
+                                        <li><a class="dropdown-item" href="https://harshdeep1996.github.io/">Rolandi
+                                                Libretti</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../about.html">About & Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <p>
+                <b>Projects in Digital Humanities</b><br> The projects present Digital Humanities as a way to interpret and gather the infinite knowledge of the world.
+            </p>
+        </div>
+    </div>
+
+    <div class='row justify-content-center pt-5'>
+
+        <div class="col-8 col-sm-5 col-lg-3" style='text-align:left' id='bg'>
+            <a href="bachelor_thesis/multi_label.html">
+                <img src='1200px-Grant_DeVolson_Wood_-_American_Gothic.jpg' alt='Classification of Artworks' height=70% width=90%>
+            </a>
+            <p style='font-size:12px'>Wood Grant (1930). American Gothic. From <a href="https://it.wikipedia.org/wiki/American_Gothic_(dipinto)#/media/File:Grant_DeVolson_Wood_-_American_Gothic.jpg">here</a></p>
+
+            <div class='overlay' style='top: 30%;'>
+                <a href="bachelor_thesis/multi_label.html" class='click1'>
+                Multilabel Classification of Artworks
+            </a>
+            </div>
+
+        </div>
+        <div class="col-8 col-sm-5 col-lg-2 pt-3 pe-5">
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
+                <br>
+                <p>
+                    <a href="bachelor_thesis/multi_label.html" class='click'>
+                        <span class="material-icons">
+                        chevron_left
+                    </span> <b>Automatic recognition of physical and abstract icons represented in paintings.</b> An integrated model of different multi-label and transfer learning techniques to classify Modern and Contemporary
+                        Artworks.
+                    </a>
+                </p>
+                <p>
+                    <a href="Digital Musicology/debussy.html" class='click'>
+                        <b>Computational methods to describe Debussy's Tonal Ambiguity.</b> The Discrete Fourier Transform (DFT) and other methods to visualize and analyze tonal hierarchies in musical pieces.
+                        <span class="material-icons">
+                        chevron_right
+                    </span></a>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-8 col-sm-5 col-lg-3" style='text-align:right' id='bg'>
+            <a href="Digital Musicology/debussy.html"><img src='Arthur_Rackham_1909_Undine_(14_of_15).jpg' alt='Tonal Ambiguity in Debussy' height=80% width=100%></a>
+            <p style='font-size:12px'>Arthur Rackham (1909). Undine. From <a href="https://commons.wikimedia.org/wiki/File:Arthur_Rackham_1909_Undine_(14_of_15).jpg">here</a></p>
+            <div class='overlay' style='top: 30%;'>
+                <a href="Digital Musicology/debussy.html" class='click1'>
+                Debussy's Tonal Ambiguity
+            </a>
+            </div>
+        </div>
+
+    </div>
+    <div class='row justify-content-center pt-5'>
+        <div class="col-1"></div>
+
+        <div class="col-8 col-sm-5 col-lg-3 pe-5" id='bg'>
+            <a href="Computational Social Media/gme.html"><img src='dgrvr88-Diego-Rivera-Stock-Market-1000x1000.jpg' alt='GME to the Moon' height=60% width=120%>
+            </a>
+            <p style='font-size:12px'>Rivera Diego (c.1927–32). Stock Market. From <a href="https://www.arthipo.com/diego-rivera-stock-market.html">here</a></p>
+            <div class='overlay' style='top: 30%;'>
+                <a href="Computational Social Media/gme.html" class='click1'>
+                GME to the moon
+            </a>
+            </div>
+            <br>
+            <div style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;' width=100% height=70%>
+                <br>
+                <p>
+                    <a href="Computational Social Media/gme.html" class='click'>
+                        <span class="material-icons">
+                        expand_less
+                    </span>
+                        <b>GME to the moon. How r/WallStreetBets squeezed GameStop.</b> Bridging theoretical knowledge from social media with computational methods to analyze communities and comparing trends.
+                    </a>
+                </p>
+                <p>
+                    <a href="History and the Digital/swiss_identity.html" class='click'>
+                        <b>Swiss Identity </b> The evolution of Swiss national identity from the XIX century using computational methods, scanning the vast corpus of regional Swiss newspapers, and adopting 3 proxies of national identity.
+                        <span class="material-icons">
+                        chevron_right
+                    </span></a>
+                </p>
+            </div>
+        </div>
+        <div class="col-8 col-md-1">
+        </div>
+
+        <div class="col-8 col-sm-5 col-lg-3 pt-5" style='margin-top:50px' id='bg'>
+            <a href="History and the Digital/swiss_identity.html"><img src='giacometti.jpg' alt='Swiss Identity' height=80% width=100%></a>
+            <p style='font-size:12px'>Giacometti Alberto (1947). Man Pointing. From <a href="https://en.wikipedia.org/wiki/L%27Homme_au_doigt#/media/File:L'Homme_au_doigt_Alberto_Giacometti.jpg">here</a></p>
+            <div class='overlay' style='top: 40%;'>
+                <a href="History and the Digital/swiss_identity.html" class='click1'>
+                Swiss Identity
+            </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class='row justify-content-center pt-5' style='margin-top:90px'>
+        <div class='col-8' style='border-style: dashed none none none; border-width: 2px; border-color: lightgray;'>
+            <p><br> Back to top <a href='index.html'><span class="material-icons">
+                        vertical_align_top
+                    </span></a>
+
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
