@@ -11,7 +11,7 @@ a, p {
     font-weight: 200;
     font-size: large;
     color: black;
-    text-decoration: none; 
+    /* text-decoration: none;  */
 }
 
 h1,
