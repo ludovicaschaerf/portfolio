@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/",
+    "/about",
+    "/art-and-ai",
+    "/critical-ai",
+    "/data-visualization",
+    "/digital-humanities",
+    "/publications"
+  ]
+}
