@@ -1,0 +1,12 @@
+{
+  "routes": [
+    "/",
+    "/about",
+    "/ai-curation",
+    "/art-authentication",
+    "/calvino",
+    "/critical-ai",
+    "/generative-ai",
+    "/publications"
+  ]
+}
