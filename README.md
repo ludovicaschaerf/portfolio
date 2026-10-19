@@ -29,6 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 deploy:
 
-ng build --prod --base-href="https://github.com/ludovicaschaerf/portfolio/"
+ng build --configuration production
 
-angular-cli-ghpages 
+npx angular-cli-ghpages --dir=dist/portfolio/browser --no-silent
